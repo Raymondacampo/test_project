@@ -8,7 +8,7 @@ export async function getServerSideProps() {
 export default function Home({ data }) {
   return (
     <div className="p-8">
-      <h1 className="text-2xl font-bold">Next.js + Django API</h1>
+      <h1 className="text-2xl font-bold">Next.js + Django API <a href="/search/">Haz click aqui</a></h1>
       <p className="mt-4">
         {data ? data.message : "No data available."}
       </p>
